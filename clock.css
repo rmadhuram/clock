@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+.seg {
+  background-color: #ccc;
+  border: #888;
+  position: absolute;
+}
+
+.horiz {
+  width: 50px;
+  height: 10px;
+}
+
+.vert {
+  width: 10px;
+  height: 50px;
+}
+
+.seg-a {
+  top: 10px;
+}
+
+.seg-b {
+  top: 70px;
+}
+
+.seg-c {
+  left: 10px;
+  top: 120px;
+}
+
+.seg-d {
+  left: 60px;
+  top: 70px;
+}
+
+.seg-e {
+  left: 60px;
+  top: 10px;
+}
+
+.seg-f {
+  left: 10px;
+  top: 0px;
+}
+
+.seg-g {
+  left: 10px;
+  top: 60px;
+}
+
+.on {
+  background-color: rgb(46, 46, 46);
+}
+
+.off {
+  background-color: #fff;
+}
