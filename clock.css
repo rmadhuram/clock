@@ -5,9 +5,9 @@ body {
   justify-content: center;
 }
 
-.clock {
-  width: 500px;
-  height: 300px;
+.seven-seg-display {
+  width: 70px;
+  height: 130px;
   position: relative;
 }
 
@@ -15,6 +15,7 @@ body {
   background-color: #ccc;
   border: #888;
   position: absolute;
+  border-radius: 5px;
 }
 
 .horiz {

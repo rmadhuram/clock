@@ -1,8 +1,11 @@
+function genDisplay(containerClass) {
+  let container = document.querySelector(containerClass);
+}
+
 function init() {
-  
   let container = document.querySelector('.seg-container');
   container.innerHTML = `
-    <div class="clock">
+    <div class="seven-seg-display">
       <div class="seg seg-a vert off"></div>
       <div class="seg seg-b vert off"></div>
       <div class="seg seg-c horiz on"></div>
