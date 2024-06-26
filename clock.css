@@ -3,6 +3,43 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  /* background-image: url('pexels-steve-1517076.jpg'); */
+ background-image: url('pexels-steve-1509534.jpg'); 
+  background-size: contain;
+}
+
+.seg-container {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  background: radial-gradient(rgb(47, 46, 46), transparent);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.separator {
+  width: 30px;
+  height: 130px;
+  position: relative;
+}
+
+.separator .sep {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: rgb(242, 227, 15);
+}
+
+.separator .top {
+  position: absolute;
+  left: 10px;
+  top: 35px;
+}
+
+.separator .bottom {
+  position: absolute;
+  left: 10px;
+  top: 85px;
 }
 
 .seven-seg-display {
@@ -62,9 +99,9 @@ body {
 }
 
 .on {
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(255, 238, 1);
 }
 
 .off {
-  background-color: #fff;
+  background-color: transparent;
 }
